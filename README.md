@@ -61,5 +61,17 @@ Half-Subtractor
 Full-Subtractor
 ![image](https://user-images.githubusercontent.com/119401038/230595177-3645af34-8588-4236-8464-7ff0263a0219.png)
 
+Timing Diagram:
+
+Half Subtractor:
+
+![image](https://github.com/Meetha22003992/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119401038/d88a814a-1936-453c-ac89-89c27bb6f974)
+
+
+Full Subtractor:
+
+![image](https://github.com/Meetha22003992/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119401038/35a4a8e3-972b-425a-85b2-170f5d6eadb5)
+
+
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
