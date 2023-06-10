@@ -26,20 +26,19 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
-
-
-
-Write the detailed procedure here 
-
-
+1.Use modeule project name(input,output) to start the verliog programming
+2.Assign inputs and outputs using the word input and output repectively
+3.Use defined keyowrds like wire,assign and required logic gates to represent the boolean expression
+4.Use each output to represent one for difference and the other for borrow
+5.End the verilog program using keyword endmosdule
 ## Program:
 ```
 /*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 Developed by: Meetha Prabhu 
 RegisterNumber: 21222240065
-Half-Subtractor :
 
+Half-Subtractor :
 module experiment4(output B,D, input X,Y);
 assign D = (X^Y);
 assign B = (~X&Y); 
@@ -56,23 +55,30 @@ endmodule
 */
 
 ##  RTL realization
-Half-Subtractor
+Half-Subtractor:
+
 ![image](https://user-images.githubusercontent.com/119401038/230594707-ea71a6f7-6fd8-4eca-9558-a44a25c7f18b.png)
 
-Full-Subtractor
-![image](https://user-images.githubusercontent.com/119401038/230595177-3645af34-8588-4236-8464-7ff0263a0219.png)
+Full-Subtractor:
 
-Timing Diagram:
+![image](https://user-images.githubusercontent.com/119401038/230595177-3645af34-8588-4236-8464-7ff0263a0219.png)
 
 Half Subtractor:
 
 ![image](https://github.com/Meetha22003992/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119401038/d88a814a-1936-453c-ac89-89c27bb6f974)
 
-
 Full Subtractor:
 
 ![image](https://github.com/Meetha22003992/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119401038/35a4a8e3-972b-425a-85b2-170f5d6eadb5)
 
+## Truth table:
+Half Subtractor:
+
+![image](https://github.com/Meetha22003992/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119401038/8068fdb9-fc62-4b41-b699-03c1a8fa3af4)
+
+Full Subtractor:
+
+![image](https://github.com/Meetha22003992/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119401038/af8cd087-6bb6-49e0-a537-0ea2dedee174)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
