@@ -44,7 +44,8 @@ module experiment4(output B,D, input X,Y);
 assign D = (X^Y);
 assign B = (~X&Y); 
 endmodule
-Full-Subtractor
+
+Full-Subtractor:
 module experiment4(X,Y,Z,Borrow,Difference);
 input X,Y,Z;
 output Borrow,Difference;
